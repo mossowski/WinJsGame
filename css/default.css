@@ -1,0 +1,102 @@
+﻿body {
+    background-color: black;
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    display: -ms-flexbox;
+}
+#info {
+    font-size: 100px;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    line-height: 400px;
+}
+#msg {
+    margin: 20px;
+}
+#menu {
+    position: fixed;
+    top: 150px;
+    margin-left: auto;
+    font-size: 22px;
+    display: block;
+    border: solid 2px black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+#start {
+    font-size: 26px;
+}
+#highScores {
+    font-size: 26px;
+}
+hr {
+    background: white;
+    height: 1px;
+    border: none;
+}
+#pause {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    padding: 5px;
+    width: 100px;
+    color: white;
+    display: block;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+}
+.menuOption {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#addHighscore {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 350px;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    border: solid 1px black;
+    background-color: black;
+}
+#nameText {
+    color:white;
+    padding: 3px;
+    background-color: black;
+    border: solid 1px white;
+}
+#nameSubmit {
+    margin-left: 10px;
+    padding: 3px;
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+}
+#scorePoints {
+    font-size: 18px;
+    color: white;
+}
+#showScores {
+    top: 150px;
+
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
